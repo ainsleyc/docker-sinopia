@@ -1,5 +1,5 @@
 FROM dockerfile/nodejs
-MAINTAINER Keyvan Fatehi <keyvanfatehi@gmail.com>
+MAINTAINER Ainsley Chong <ainsley.chong@gmail.com>
 RUN adduser --disabled-password --gecos "" sinopia
 RUN mkdir -p /opt/sinopia/storage
 WORKDIR /opt/sinopia
