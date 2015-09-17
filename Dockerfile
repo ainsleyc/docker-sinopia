@@ -1,4 +1,4 @@
-FROM dockerfile/nodejs
+FROM node:latest
 MAINTAINER Ainsley Chong <ainsley.chong@gmail.com>
 RUN adduser --disabled-password --gecos "" sinopia
 RUN mkdir -p /opt/sinopia/storage
