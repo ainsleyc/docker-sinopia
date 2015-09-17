@@ -9,4 +9,5 @@ USER sinopia
 ADD /start.sh /opt/sinopia/start.sh
 CMD ["/opt/sinopia/start.sh"]
 EXPOSE 4873
-VOLUME /opt/sinopia
+VOLUME /opt/sinopia/storage
+VOLUME /opt/sinopia/auth
